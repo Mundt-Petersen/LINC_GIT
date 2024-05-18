@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 years = np.array([2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]).reshape(-1, 1)
 profits = np.array([885, 1480, 1243, 2785, 3580, 5933, 5463, 6470, 7518, 8065])
 
-#Sopig data för test R^2
+# Sopig data för test R^2
 weird_profits = np.array([885, 234, 1643, 2785, 3580, 933, 5463, 2470, 7518, 165])
 
 
@@ -96,8 +96,6 @@ def create_figure(x, y):
         yaxis_title="Profits",
         showlegend=True
     )
-
-    # Display the figure in Jupyter Notebook
     fig.show()
 
 plot(years, profits)
