@@ -98,7 +98,5 @@ def create_figure(x, y):
     )
     fig.show()
 
-
-if __name__ == '__main__':
-    plot(years, profits)
-    create_figure(years, profits)
+plot(years, profits)
+create_figure(years, profits)
